@@ -1,0 +1,989 @@
+<!--
+  Karson Chan, Jeremy Chong and Manash Mathan
+  Friday, October 2, 2020
+  Unit 1 Website Assignment
+  This code is for the homepage of the website assignment where we are to create a website describing a topic of our choosing
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+	<link rel="stylesheet" type="text/css" href="homepage.css">
+	<!--this allows the programmer to write code on a seperate doc--> 
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<!--By using google fonts we can copy paste a font we desire into code to change the font-->
+		<title>Basketball</title>
+	</head>
+	<body id="navBar">
+		<header>
+			<h1 class="logo">Basketball</h1>
+			<input type="checkbox" id="nav-toggle" class="nav-toggle">
+			<nav class=".nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="History/index.html">Timeline</a></li>
+					<li><a href="Teams/index.html">Teams</a></li>
+					<li><a href="HistoricFigures/index.html">Players</a></li>
+					<li><a href="ProcessWork/index.html">Process Work</a></li>
+				</ul>
+			</nav>
+			<label for="nav-toggle" class="nav-toggle-label"></label>
+		</header>
+		<div class="row">
+			<div class="column">
+				<img id="basketball" src="images/homepage.png" width="100%;">
+			</div>
+			<h1 class="text">Basketball</h1>
+			<div class="column">
+				<img id="ball" src="images/ball.jpg" width="100%;">
+			</div>
+			<h1 class="gamedn">Game Description</h1>
+				<h2 class="maintext">
+					Basketball was made in June 6, 1946; a simple sport	which took the world by storm and is now one of the most iconic sports ever made, even if you've never played it you most likely know what it is. Despite the sports simplicity, it is one of the most entertaining sports ranked as the third most popular sport and has gained a spot as one of the 4 major sports in the world. It has given birth to some of the best athletes in history and inspires others to play as it's easy to play, all you need is a ball.  
+				</h2>
+			<img id="floor" src="images/bballfloor.jpg">
+		<h1 class="facts">Fun Facts</h1>
+		<div class="container">
+			<div class="box">
+				<div class="imgbox">
+					<img src="images/audience.jpg">
+				</div>
+				<div class="details">
+					<div class="content">
+						<h2>Did you know?</h2>
+						<p> 17,750 people attended NBA's 2019/20 season alone! </p>
+					</div> 
+				</div>
+			</div>
+			<div class="box">				
+				<div class="imgbox">
+					<img src="images/fact2.jpg">
+				</div>
+				<div class="details">
+					<div class="content">
+						<h2>Did you know?</h2>
+						<p> Basketball was orignally played with a soccerball! </p>
+					</div> 
+				</div>
+			</div>
+			<div class="box">					
+				<div class="imgbox">
+					<img src="images/fact3.jpg">
+				</div>
+				<div class="details">
+					<div class="content">
+						<h2>Did you know?</h2>
+						<p> Slam dunking was originally illegal for around 9 years! </p>
+					</div> 
+				</div>
+			</div>
+			<div class="box">					
+				<div class="imgbox">
+					<img src="images/fact4.jpg">
+				</div>
+				<div class="details">
+					<div class="content">
+						<h2>Did you know?</h2>
+						<p> Basketball teams were orignally composed of 9 players instead of 5 due to games being to chaotic! </p>
+					</div> 
+				</div>
+			</div>
+			<div class="box">					
+				<div class="imgbox">
+					<img src="images/fact5.jpg">
+				</div>
+				<div class="details">
+					<div class="content">
+						<h2>Did you know?</h2>
+						<p> The average NBA player can jump around 28 INCHES off the ground! </p>
+					</div> 
+				</div>
+			</div>
+			<div class="box">					
+				<div class="imgbox">
+					<img src="images/fact6jpg.jpg">
+				</div>
+				<div class="details">
+					<div class="content">
+						<h2>Did you know?</h2>
+						<p> Dribbling was an illegal move and wasn't until 1897 that it became legal! </p>
+					</div> 
+				</div>
+			</div>
+			<div class="box">					
+				<div class="imgbox">
+					<img src="images/fact7.jpg">
+				</div>
+				<div class="details">
+					<div class="content">
+						<h2>Did you know?</h2>
+						<p> The youngest player to ever enter the NBA is Kobe, who enetered at the young age of 17! </p>
+					</div> 
+				</div>
+			</div>
+			<div class="box">				
+				<div class="imgbox">
+					<img src="images/fact8.jpg">
+				</div>
+			<div class="details">
+				<div class="content">
+					<h2>Did you know?</h2>
+					<p> Basketball holds the number 1 spot for sport that experiences the most injuries! </p>
+				</div> 
+			</div>
+		</div>
+	</body>
+</html>
+<!--
+	Jeremy Chong, Karson Chan and Manash Mathan
+	October 2, 2020
+	History Webpage 
+	This page is to show the history of Basketball and how it evolved over time
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+		<title>The History of Basketball</title>
+		<link rel="stylesheet" type="text/css" href="../styles.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+		<!--The link tag links to a external resource. For example in this case, the CSS file-->
+	</head>
+	<body>
+		<section id="navBar">
+		<header>
+			<h1 class="logo">Basketball</h1>
+			<input type="checkbox" id="nav-toggle" class="nav-toggle">
+			<nav>
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="index.html">Timeline</a></li>
+					<li><a href="../Teams/index.html">Teams</a></li>
+					<li><a href="../HistoricFigures/index.html">Players</a></li>
+					<li><a href="../ProcessWork/index.html">Process Work</a></li>
+				</ul>
+			</nav>
+			<label for="nav-toggle" class="nav-toggle-label"></label>
+		</header>
+		</section>
+		<section id="historyHeader" class="hero">
+		<!--
+			The section tag is used to split up articles or to represent multiple chapters. The hero is attribute is also used to put an image behind the heading. The code for the hero image was a combination of code found on w3schools.com and codetheweb.blog
+		-->
+			<div class="hero-inner">
+				<h1 id=history>The History of Basketball</h1>
+			</div>
+		</section>
+		<main id="timeline">
+			<!--The main tag shows content only specific to this page excluding content that could be repeated such as the navigation-->
+			<!-- This part lists the heading for each year. -->
+			<div class="process-wrapper">
+				<div id="progress-bar-container">
+					<ul>
+						<li class="step step01 active"><div class="step-inner">1891</div></li>
+						<li class="step step02"><div class="step-inner">1892</div></li>
+						<li class="step step03"><div class="step-inner">1894</div></li>
+						<li class="step step04"><div class="step-inner">1895</div></li>
+						<li class="step step05"><div class="step-inner">1949</div></li>
+					</ul>
+				<div id="line">
+				<div id="line-progress"></div>
+				</div>
+				</div>
+				<!-- Content -->
+				<div id="progress-content-section">
+				<div class="section-content discovery active">
+					<h2>1891</h2>
+						<p>
+							James Naismith, an instructor for physical education, invented the sport basketball in Springfield, Massachusetts. Naismith used two peach baskets as the hoops and a soccer ball. He later published 13 rules for his newfound game and named it basketball.
+						</p>
+					<img src="../images/invent.jpg" width="80%">
+				</div>
+				<div class="section-content strategy">
+					<h2>1892</h2>
+						<p>
+							The first official game of basketball was played with 9 players in the YMCA gymnasium in Albany, New York. The court was roughly half the size of the current-day NBA (National Basketball Association) court.
+						</p>
+					<img src="../images/naismith.jpg" width="80%">
+				</div>
+				<div class="section-content creative">
+					<h2>1894</h2>
+						<p>
+							The first professional basketball league, the NBL (National Basketball League), was formed. This league was formed to protect players from exploitation and to promote a less rough game but was later disbanded after 5 years.
+						</p>
+					<img src="../images/nbl.png" width="80%">
+				</div>
+				<div class="section-content production">
+					<h2>1895</h2>
+						<p>
+							The first college basketball game was played between Minnesota A&M and Hamline University. The game was played in the basement of the Hall of Science at Hamline University and a make-shift court was constructed in a former dining hall. Minnesota won the game 9-3.
+						</p>
+					<img src="../images/college.jpg" width="80%">
+				</div>
+				<div class="section-content analysis">
+					<h2>1949</h2>
+						<p>
+							The NBL, National Basketball League, and the BAA, Basketball Association of America, merged to create the NBA, National Basketball Association. Maurice Podoloff, an American lawyer and basketball and ice hockey administrator, served as the first president of this new league.
+						</p>
+					<img src="../images/nba.jpg" width="80%">
+				</div>
+			</div>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<!-- Javascript starts here. The base of this java script code is from the video. This part animates the progress bar in the timeline.-->
+			<script type="text/javascript">
+			//This javascript animates the the bar in the timeline so it slides to the next heading
+				$(".step").click( function() {
+				$(this).addClass("active").prevAll().addClass("active");
+				$(this).nextAll().removeClass("active");
+				});
+
+				$(".step01").click( function() {
+				$("#line-progress").css("width", "3%");
+				$(".discovery").addClass("active").siblings().removeClass("active");
+				});
+
+				$(".step02").click( function() {
+				$("#line-progress").css("width", "25%");
+				$(".strategy").addClass("active").siblings().removeClass("active");
+				});
+
+				$(".step03").click( function() {
+				$("#line-progress").css("width", "50%");
+				$(".creative").addClass("active").siblings().removeClass("active");
+				});
+
+				$(".step04").click( function() {
+				$("#line-progress").css("width", "75%");
+				$(".production").addClass("active").siblings().removeClass("active");
+				});
+
+				$(".step05").click( function() {
+				$("#line-progress").css("width", "100%");
+				$(".analysis").addClass("active").siblings().removeClass("active");
+				});
+   			</script>
+		</main>
+	</body>
+</html>
+<!--
+	Jeremy Chong, Karson Chan and Manash Mathan
+	October 3, 2020
+	Teams page
+	This is the main page that links the western and eastern conference teams.
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Teams</title>
+		<link rel="stylesheet" type="text/css" href="../styles.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<section id="navBar">
+			<header id="teamHeader">
+				<h1 class="logo">Basketball</h1>
+				<input type="checkbox" id="nav-toggle" class="nav-toggle">
+				<nav>
+					<ul>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="../History/index.html">Timeline</a></li>
+						<li><a href="index.html">Teams</a></li>
+						<li><a href="../HistoricFigures/index.html">Players</a></li>
+						<li><a href="../ProcessWork/index.html">Process Work</a></li>
+					</ul>
+				</nav>
+				<label for="nav-toggle" class="nav-toggle-label"></label>
+			</header>
+			</section>
+		<div class="split left">
+		<!--
+			This is the split screen, which will link to the western and eastern conference teams. This code is the base of code found on w3schools.com and stackoverflow.com.
+		-->
+			<div id="westConference" class="centered">
+				<img src="../images/wLogo.gif">
+				<h1>Western Conference</h1>
+				<a id="teamButton" href="wConference/index.html" class="button">
+				<!--This is  button that will link the user to the respective team page-->
+				GO TO WESTERN CONFERENCE TEAMS
+				</a>
+			</div>
+		</div>
+		<div class="split right">
+			<div id="eastConference" class="centered">
+				<img src="../images/eLogo.gif">
+				<h1>Eastern Conference</h1>
+				<a id="teamButton" href="eConference/index.html" class="button">
+				GO TO EASTERN CONFERENCE TEAMS
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
+<!--
+	Jeremy Chong, Karson Chan and Manash Mathan
+	October 4, 2020
+	Western Conference Teams Page
+	This page shows all the teams in the Western Conference
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Western Conference Teams</title>
+		<link rel="stylesheet" type="text/css" href="../../styles.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<section id="navBar">
+			<header>
+				<h1 class="logo">Basketball</h1>
+				<input type="checkbox" id="nav-toggle" class="nav-toggle">
+				<nav>
+					<ul>
+						<li><a href="../../index.html">Home</a></li>
+						<li><a href="../../History/index.html">Timeline</a></li>
+						<li><a href="../index.html">Teams</a></li>
+						<li><a href="../../HistoricFigures/index.html">Players</a></li>
+						<li><a href="../../ProcessWork/index.html">Process Work</a></li>
+					</ul>
+				</nav>
+				<label for="nav-toggle" class="nav-toggle-label"></label>
+			</header>
+		</section>
+		<section id="wTeamHeader" class="hero">
+			<div class="hero-inner">
+				<h1 id="wTeams">Western Conference Teams</h1>
+			</div>
+		</section>
+		<main>
+			<div id="wRow" class="row"> <!--This code is the base found on w3schools.com-->
+				<h2 id="wTeamText">West Northwest</h2>
+				<div id="wColumn" class="column"> <!--This div creates a column-->
+					<img src="../../images/denver.png"> <!--This div is the indivisual boxes for the grid-->
+					<img src="../../images/minnesota.png">
+					<img src="../../images/okc.png"> 
+					<img src="../../images/por.png">
+					<img src="../../images/utah.png">
+					<br>
+					<p id="wCaption">Denver Nuggets</p> <!--This p tag is the caption for the image-->
+					<p id="wCaption">Minnesota Timberwolves</p>
+					<p id="wCaption">Oklahoma City Thunder</p>
+					<p id="wCaption">Portland Trail Blazers</p>
+					<p id="wCaption6">Utah Jazz</p>
+				</div>
+				<h2 id="wTeamText">West Pacific</h2>
+				<div id="wColumn" class="column">
+					<img src="../../images/gs.png">
+					<img src="../../images/lakers.png">
+					<img src="../../images/clippers.png">
+					<img src="../../images/phx.png">
+					<img src="../../images/sac.png">
+					<br>
+					<p id="wCaption2">Golden State Warriors</p>
+					<p id="wCaption2">Los Angeles Lakers</p>
+					<p id="wCaption3">Los Angeles Clippers</p>
+					<p id="wCaption3">Phoenix Suns</p>
+					<p id="wCaption3">Sacramento Kings</p>
+				</div>
+				<h2 id="wTeamText">West Southwest</h2>
+				<div id="wColumn" class="column">
+					<img src="../../images/dallas.png">
+					<img src="../../images/houston.png">
+					<img src="../../images/memphis.png">
+					<img src="../../images/nop.png">
+					<img src="../../images/sa.png">
+					<br>
+					<p id="wCaption">Dallas Mavericks</p>
+					<p id="wCaption5">Houston Rockets</p>
+					<p id="wCaption5">Memphis Grizzlies</p>
+					<p id="wCaption3">New Orleans Pelicans</p>
+					<p id="wCaption5">San Antonio Spurs</p>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
+<!--
+	Jeremy Chong, Karson Chan and Manash Mathan
+	October 4, 2020
+	Western Conference Teams Page
+	This page shows all the teams in the Eastern Conference
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Eastern Conference Teams</title>
+		<link rel="stylesheet" type="text/css" href="../../styles.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<section id="navBar">
+			<header>
+				<h1 class="logo">Basketball</h1>
+				<input type="checkbox" id="nav-toggle" class="nav-toggle">
+				<nav>
+					<ul>
+						<li><a href="../../index.html">Home</a></li>
+						<li><a href="../../History/index.html">Timeline</a></li>
+						<li><a href="../index.html">Teams</a></li>
+						<li><a href="../../HistoricFigures/index.html">Players</a></li>
+						<li><a href="../../ProcessWork/index.html">Process Work</a></li>
+					</ul>
+				</nav>
+				<label for="nav-toggle" class="nav-toggle-label"></label>
+			</header>
+		</section>
+		<section id="eTeamHeader" class="hero">
+			<div class="hero-inner">
+				<h1 id="eTeams">Eastern Conference Teams</h1>
+			</div>
+		</section>
+		<main>
+			<div id="eRow" class="row"> <!--The code's was found on w3schools.com-->
+				<h2 id="eTeamText">East Atlantic</h2>
+				<div id="eColumn" class="column"> <!--This div creates a column-->
+					<img src="../../images/boston.png"> <!--This div is the indivisual boxes for the grid-->
+					<img src="../../images/bkn.png">
+					<img src="../../images/nyk.png">
+					<img src="../../images/phi.png">
+					<img src="../../images/rap.png">
+					<br>
+					<p id="eCaption">Boston Celtics</p>
+					<p id="eCaption7">Brooklyn Nets</p>
+					<p id="eCaption6">New York Knicks</p>
+					<p id="eCaption3">Philadelphia 76ers</p>
+					<p id="eCaption6">Toronto Raptors</p>
+				</div>
+				<h2 id="eTeamText">East Central</h2>
+				<div id="eColumn" class="column">
+					<img src="../../images/chi.png">
+					<img src="../../images/cav.png">
+					<img src="../../images/det.png">
+					<img src="../../images/ind.png">
+					<img src="../../images/mil.png">
+					<br>
+					<p id="eCaption">Chicago Bulls</p>
+					<p id="eCaption3">Cleveland Cavaliers</p>
+					<p id="eCaption6">Detroit Pistons</p>
+					<p id="eCaption6">Indiana Pacers</p>
+					<p id="eCaption7">Milwaukee Bucks</p>
+				</div>
+				<h2 id="eTeamText">East Southeast</h2>
+				<div id="eColumn" class="column">
+					<img src="../../images/atl.png">
+					<img src="../../images/char.png">
+					<img src="../../images/heat.png">
+					<img src="../../images/orl.png">
+					<img src="../../images/was.png">
+					<br>
+					<p id="eCaption">Atlanta Hawks</p>
+					<p id="eCaption3">Charlotte Hornets</p>
+					<p id="eCaption7">Miami Heat</p>
+					<p id="eCaption8">Orlando Magic</p>
+					<p id="eCaption3">Washington Wizards</p>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
+<!--
+	Manash Mathan, Karson Chan and Jeremy Chong
+	October 2, 2020
+	History Figures Page
+	This page is to show the historic players of basketball
+-->
+<!DOCTYPE html>
+<html>
+	<head>        
+		<title>Historic Figures</title>
+		<link rel="stylesheet" type="text/css" href="../styles.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<section id="navBar">
+			<header>
+				<h1 class="logo">Basketball</h1>
+				<input type="checkbox" id="nav-toggle" class="nav-toggle">
+				<nav>
+					<ul>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="../History/index.html">Timeline</a></li>
+						<li><a href="../Teams/index.html">Teams</a></li>
+						<li><a href="index.html">Players</a></li>
+						<li><a href="../ProcessWork/index.html">Process Work</a></li>
+					</ul>
+				</nav>
+				<label for="nav-toggle" class="nav-toggle-label"></label>
+			</header>
+		</section>
+		<section id="playersHeader" class="hero">
+			<div class="hero-inner">
+				<h1 id="players">Historic Figures</h1>
+			</div>
+		</section>
+		<main id="playersDesc">
+			<div class="container-1">
+				<div class="box-1">
+					<h2>Wilt Chamberlain</h2>
+					<p>
+						Wilton Norman Chamberlain was born on August 21, 1936, in Philadelphia, Pennsylvania. Chamberlain was drafted as the 3rd overall pick in the 1959 NBA draft by the Philadelphia Warriors, now the Golden State Warriors. In his first professional game, he scored 43 points against the New York Knicks. Due to his impressive debut season, Chamberlain was able to receive multiple prestigious awards such as the NBA Rookie of the Year and the Most Valuable Player.
+					<br>
+					<br>
+						Chamberlain’s most popular feat was his 100 point game in 1962, setting a league record for the highest number of points scored in a single game, which is still not broken to this day. In the same season, Chamberlain became the first and only NBA player to rack up more than 4,000 points in a single season. At the end of Chamberlain’s basketball career, he had won two NBA championships, earned four Most Valuable Player awards, the Rookie of the Year award, one NBA Finals MVP award, was selected to 13 All-Star Games and 10 All-NBA First and Second teams.
+					</p>
+				</div>
+			</div>
+			<div class="container-1">
+				<div class="box-2">
+					<h2>Larry Bird</h2>
+					<p>
+						Larry Joe Bird was born on December 7, 1956, in West Baden Springs, Indiana. Bird was drafted as the 6th overall pick in the 1978 NBA draft by the Boston Celtics but did not play professionally until the 1979-1980 season. He won the NBA Rookie of the Year award after contributing to one of the largest single-season turnarounds in NBA history, leading Boston from 29 wins to 61 wins.
+					<br>
+					<br>
+						Bird was most notable for winning 3 consecutive NBA Most Valuable Player awards and being the first player to be apart of the 50-40-90 club, a collection of players who have shot 50% or above from the field, 40% or above from the 3-point line and 90% or above from the free-throw line in a season. At the end of Bird’s career, he won three NBA championships, earned three Most Valuable Player awards, the Rookie of the Year award, two Finals MVP awards, was selected to 12 All-Star Games and nine All-NBA First teams and one All-NBA Second team.
+					</p>
+				</div>
+			</div>
+			<div class="container-1">
+				<div class="box-3">
+					<h2>Michael Jordan</h2>
+					<p>
+						Michael Jeffrey Jordan was born on February 17, 1963, in Brooklyn, New York. Jordan was drafted as the 3rd overall pick in the 1984 NBA draft by the Chicago Bulls. In his first season, Jordan led the league in scoring and was selected to be an All-Star. He was also later awarded the Rookie of the Year award.  
+					<br>
+					<br>
+						Jordan was notable for multiple feats such as leading the league in scoring for seven consecutive seasons, in which he averaged about 33 points per game and was the only second player, after Wilt Chamberlain, to score 3,000 points in one season. At the end of Jordan’s career, he won six championships, earned five Most Valuable Player awards, the Rookie of the Year award, six Finals MVP awards, NBA Defensive Player of the Year, was selected to 10 All-NBA First teams and one All-NBA Second team.
+					</p>
+				</div>
+			</div>
+			<div class="container-1">
+				<div class="box-4">
+					<h2>Magic Johnson</h2>
+					<p>
+						Earvin (Magic) Johnson was born august 14 1959. Magic Johnson was named one of the best players for over 13 years. In 1991 he retired from the  Los Angeles Lakers after announcing he had tested positive for HIV. Earvin Johnson earned his famous nickname “Magic” at Everett High School after a sports writer watched him score 36 points in a single game. Magic Johnson measured 6’9 which made him an impressive point guard. He was on the Spartans and played against the Indiana State Sycamores at the  NCAA, where he would face off against Larry Bird and start their long rivalry.
+					<br>
+					<br>
+						After college Johnson was immediately drafted by the  Los Angeles Lakers. He later won the NBA Finals Most Valuable Player for his efforts in guiding the  Lakers into beating the  Philadelphia 76ers in the championship series. In his third season the  Lakers made the finals and beat the Philadelphia 76ers once again.
+					</p>
+				</div>
+			</div>
+			<div class="container-1">
+				<div class="box-5">
+					<h2>Kareem Abdul-Jabbar</h2>
+					<p>
+						Kareem Abdul-Jabbar was a high school basketball player and was recruited to play at UCLA leading the  Bruins to three national titles. He then went on into the  NBA to play for the Bucks and later for the Lakers. Kareem is widely known as one of the  greatest basketball players after retiring in 1989. Known as Lew Alincdor, he started playing the sport at an early age. He then attended The University of Los Angeles becoming the college games best player.
+					<br>
+					<br>
+						In 1969 the  Bucks picked him. And he was named the  Rookie of the  year. After the Bucks added a future hall of fame player Oscar Robertson they steamrolled through the  play offs. Alincdor then won his first MVP award, one of 6. Alincdor converted to Islam and changed his name to Kareem Abdl-Jabbar which means “noble, powerful servant.” Abdul had trouble finding happiness in his life in Milwaukee even with his success with basketball.
+					</p>
+				</div>
+			</div>
+			<div class="container-1">
+				<div class="box-6">
+					<h2>Oscar Robertson</h2>
+					<p>
+						Oscar Robertson, also known as the Big O, born November 24, 1938, an American basketball player and considered one of the top players in the history of basketball. In 1961-62, he averaged 30.8 points, 12.5 rebounds, 11.4 assist per game, a feat unmatched by an player until Russell Westbook in 2016-17. Robertson grew up in Indianapolis where he led Crispus Attucks High School to 2 state championships. He received an athletic scholarship to the  University of Cincinnati. IN three seasons of collegiate basketball, he set 14 NCAA records.
+					<br>
+					<br>
+						He was the  first selection of the  1960 NBA draft and earned Rookie of the  Year honours that season. Robertson was big and tall and was able to use that to gain position for scoring and rebounding, as well as an expert ball handler leading the  league in assists six times. In 1960 Robertson was traded in 1970 to the  Milwaukee Bucks, where he teamed with Lew Alcindor or later known as Kareem Abdul-Jabbar and won the NBA title that season. Robertson retired front the NBA in 1974, and was elected to the Naismith Memorial Basketball Hall of Fame in 1979.
+					</p>
+				</div>
+			</div>
+			<div class="container-1">
+				<div class="box-7">
+					<h2>Tim Duncan</h2>
+					<p>
+						Tim Duncan born April 25, 1976, an American collegiate and professional basketball player who led the  San Antonio Spurs of the  NBA to 5 championships. Tim Duncan hoped to become an Olympic swimmer in his youth but after Hurricane Hugo destroyed most of the pools, Duncan moved on to Basketball. Duncan joined Wake Forest University, where he gained national recognition, and the John R. Wooden Award.
+					<br>
+					<br>
+						After graduation in 1997 Duncan was the  Spurs’ first overall pick. He and David Robinson formatted the dominating tandem known as the  “Twin Towers”. In 1998 Duncan was named Rookie of the  Year, and named MVP of the All-Star Game. Duncan had a knee injury and had to take a break from his career. In 2001 he became the  14th NBA player to have registered more than 2,000 points and 1,000 rebounds in a single season, this secured him the  league's MVP award. Duncan was named captain of the  Spurs, and became the  fourth player to win 3 finals MVP awards. Duncan turned 40 during the 2015-16 NBA season, his age was finally catching up to him, so he retired the following off-season.IN 2019 he rejoined the  Spurs as an assistant coach.
+					</p>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
+<!-- 
+	Karson Chan, Jeremy Chong and Manash Mathan
+	October 11, 2020
+	Process Work Page
+	This page shows all the process work for our website
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Process Work</title>
+		<link rel="stylesheet" type="text/css" href="../styles.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<section id="navBar">
+			<header>
+				<h1 class="logo">Basketball</h1>
+				<input type="checkbox" id="nav-toggle" class="nav-toggle">
+				<nav>
+					<ul>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="../History/index.html">Timeline</a></li>
+						<li><a href="../Teams/index.html">Teams</a></li>
+						<li><a href="../HistoricFigures/index.html">Players</a></li>
+						<li><a href="index.html">Process Work</a></li>
+					</ul>
+				</nav>
+				<label for="nav-toggle" class="nav-toggle-label"></label>
+			</header>
+		</section>
+		<section id="processHeader" class="hero">
+			<div class="hero-inner">
+				<h1 id="process">Process Work</h1>
+			</div>
+		</section>
+		<main id="processWork">
+			<h2>Works Cited</h2>
+				<h3>
+	          		<ul>
+	            		<li><a href="https://www.britannica.com/sports/basketball">https://www.britannica.com/sports/basketball</a></li>
+	            		<li><a href="https://www.sutori.com/story/basketball-timeline--SX6NKad3Z9fhg1ioYq8c3xhQ ">https://www.sutori.com/story/basketball-timeline--SX6NKad3Z9fhg1ioYq8c3xhQ </a></li>
+	        			<li><a href="https://www.britannica.com/sports/basketball/U-S-professional-basketball#ref403126">https://www.britannica.com/sports/basketball/U-S-professional-basketball#ref403126</a></li>
+				        <li><a href="https://www.worldofbasketball.org/basketball-history.htm">https://www.worldofbasketball.org/basketball-history.htm</a></li>
+				        <li><a href="https://www.history.com/this-day-in-history/nba-is-born">https://www.history.com/this-day-in-history/nba-is-born</a></li>
+				        <li><a href="https://www.fiba.basketball/history">https://www.fiba.basketball/history</a></li>
+				        <li>
+				          	<a href="https://www.biography.com/athlete/wilt-chamberlain#:~:text=He%20achieved%20an%20average%20of,Air%2C%20California%2C%20in%201999. 
+				       		 https://www.nba.com/history/legends/profiles/wilt-chamberlain#:~:text=Wilt%20Chamberlain%20was%20one%20of%20the%20most%20imposing%20figures%20in%20NBA%20history.&text=He%20was%20the%20only%20NBA,and%20most%20rebounds%20(55).">
+				       		 	https://www.biography.com/athlete/wilt-chamberlain#:~:text=He%20achieved%20an%20average%20of,Air%2C%20California%2C%20in%201999. 
+				       			https://www.nba.com/history/legends/profiles/wilt-chamberlain#:~:text=Wilt%20Chamberlain%20was%20one%20of%20the%20most%20imposing%20figures%20in%20NBA%20history.&text=He%20was%20the%20only%20NBA,and%20most%20rebounds%20(55).
+				    		</a>
+				    	</li>
+				        <li><a href="https://www.britannica.com/biography/Larry-Bird ">https://www.britannica.com/biography/Larry-Bird </a></li>
+				        <li>
+				        	<a href="https://www.biography.com/athlete/larry-bird#:~:text=Larry%20Bird%20Biography&text=Basketball%20icon%20Larry%20Bird%20won,career%20with%20the%20Boston%20Celtics.">
+				          		https://www.biography.com/athlete/larry-bird#:~:text=Larry%20Bird%20Biography&text=Basketball%20icon%20Larry%20Bird%20won,career%20with%20the%20Boston%20Celtics.
+				      		</a>
+				  		</li>
+				        <li>
+				          	<a href="https://www.sportscasting.com/whats-the-50-40-90-club-in-the-nba-and-how-many-members-does-it-have/">
+				          		https://www.sportscasting.com/whats-the-50-40-90-club-in-the-nba-and-how-many-members-does-it-have/
+				      		</a>
+				      	</li>
+				        <li><a href="https://www.britannica.com/biography/Michael-Jordan">https://www.britannica.com/biography/Michael-Jordan</a></li>
+				        <li><a href="https://www.nba.com/history/legends/profiles/michael-jordan">https://www.nba.com/history/legends/profiles/michael-jordan</a></li>
+				        <li>
+				         	<a href="https://www.biography.com/athlete/michael-jordan#:~:text=Jordan%20was%20born%20on%20February,win%20every%20game%20he%20played.&text=Jordan's%20father%2C%20James%2C%20introduced%20him,basketball%20court%20in%20their%20backyard.">	 https://www.biography.com/athlete/
+				         		michael-jordan#:~:text=Jordan%20was%20born%20on%20February,win%20every%20game%20he%20played.&text=Jordan's%20father%2C%20James%2C%20introduced%20him,basketball%20court%20in%20their%20backyard.
+				        	</a>
+				      	</li>
+				        <li>
+				        	<a href="https://www.biography.com/athlete/magic-johnson">https://www.biography.com/athlete/magic-johnson</a></li>
+				        <li>
+				        	<a href="https://www.biography.com/athlete/kareem-abdul-jabbar">https://www.biography.com/athlete/kareem-abdul-jabbar</a></li>
+				        <li>
+				        	<a href="https://www.seriousfacts.com/basketball-facts/">https://www.seriousfacts.com/basketball-facts/</a></li>
+				        <li>
+				        	<a href="https://www.factretriever.com/basketball-facts">https://www.factretriever.com/basketball-facts</a></li>
+				        <li>
+				        	<a href="https://www.cbc.ca/kidscbc2/the-feed/seven-fun-facts-you-may-not-know-about-basketball">https://www.cbc.ca/kidscbc2/the-feed/seven-fun-facts-you-may-not-know-about-basketball</a></li>
+				        <li>
+				        	<a href="https://www.factmonster.com/sports/basketball/basketball-facts">https://www.factmonster.com/sports/basketball/basketball-facts</a>
+				      	</li>
+				    </ul>
+				</div>
+        	</h3>
+			<h2>Outline</h2>
+				<img src="../images/homeOutline.jpg" width="850" height="1100">
+				<br>
+				<img src="../images/timelineOutline.jpg">
+				<br>
+				<img src="../images/teamsOutline.jpg" width="850" height="1100">
+				<br>
+				<img src="../images/playersOutline.jpg">
+			<h2>Sitemap Tree</h2>
+				<img src="../images/SiteTree (1).jpg">
+			<h2>All Code Used</h2>
+			<a id="webCode" href="code.txt">All website's code</a>
+		</main>
+	</body>
+</html>
+/*All code used below is for the homepage*/
+:root {
+  --background: #5d4954;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+.logo{ 
+  color: white;
+  letter-spacing: 10px;
+ }
+#navBar {
+  margin: 0;
+  background: : #222;
+  font-family: 'Montserrat', -serif;
+  font-weight: 400;
+}
+/* navigation styles start here */
+header {
+  background: var(--background);
+  text-align: center;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+}
+.nav-toggle {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+.nav-toggle:focus ~ .nav-toggle-label {
+  outline: 3px solid rgba(lightblue, .75);
+}
+.nav-toggle-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 1em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  display: block;
+  background: white;
+  height: 2px;
+  width: 2em;
+  border-radius: 2px;
+  position: relative;
+}
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  content: '';
+  position: absolute;
+}
+.nav-toggle-label span::before {
+  bottom: 7px;
+}
+.nav-toggle-label span::after {
+  top: 7px;
+}
+nav {
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  left: 0;
+  background: var(--background);
+  width: 100%;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
+}
+nav a:hover {
+  color: #000;
+}
+.nav-toggle:checked ~ nav {
+  transform: scale(1,1);
+}
+.nav-toggle:checked ~ nav a {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out 250ms;
+}
+@media screen and (min-width: 800px) {
+/*
+  Use @media tag to alter the look of the website on different screen resolution, window sizes, and on different devices
+*/
+  .nav-toggle-label {
+    display: none;
+  }
+  header {
+    display: grid;
+    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+  }
+  .navigation {
+    grid-column: 2 / 3;
+  }
+  .text{
+    position: absolute; 
+    top: 45%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 175px; 
+    color: white; 
+    border-style:inset; 
+    border-width: 10px;
+    padding: 50px;
+  }
+  #basketball{
+    width: 100%;
+    display: block;
+    line-height: 0px;
+  }
+  #ball{
+    border-top:solid;
+    border-bottom: solid;
+    border-width: 15px;
+    width: 100%;
+    height: 750px;
+    display: block;
+    line-height: 0px;
+  }
+  .maintext{
+    position: absolute;
+    top: 155%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: outset;
+    padding: 75px;
+    border-width: 5px;
+    color: white;
+    border-color: white;
+    font-size: 30px;
+    width: 1250px;
+    border-radius: 150px;
+  }
+  .gamedn{
+    position: absolute;
+    top: 126%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  #floor{
+    display: block;
+    width: 100%;
+    height: 1150px;
+  }
+  .facts{
+    position: absolute;
+    top:195%;
+    left:38%;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 10px;
+  }
+  .container{
+    position: absolute;
+    top:210%;
+    left:330px;
+    width: 1280px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .container .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #ff0;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+  .container .box .imgbox{
+    position: relative;
+    overflow: hidden;
+  }
+  .container .box .imgbox img{
+    object-fit: cover; 
+    width: 300px;
+    height: 300px;
+    transition: transform 2s;
+  }
+  .container .box:hover .imgbox img{
+    transform: scale(1.2);
+  }
+  .container .box .details{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+  }
+  .container .box:hover .details{
+    transform: scaleY(1);
+  }
+  .container .box .details .content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color:#fff;
+  }
+  .container .box .details .content h2{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: orange;
+  }
+  .container .box .details .content p{
+    margin: 10px 0 0;
+    padding: 0;
+  }
+  nav {
+    // all: unset; 
+    position: relative;
+    text-align: left;
+    transition: none;
+    transform: scale(1,1);
+    background: none;
+    top: initial;
+    left: initial;
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  nav ul {
+    display: flex;
+  }
+  nav li {
+    margin-left: 3em;
+    margin-bottom: 0;
+  }
+  nav a {
+    opacity: 1;
+    position: relative;
+  }
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background: black;
+    position: absolute;
+    top: -.75em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
+  }
+  nav a:hover::before {
+    transform: scale(1,1);
+  }
+}

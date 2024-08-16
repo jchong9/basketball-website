@@ -1,0 +1,134 @@
+<!--
+	Jeremy Chong, Karson Chan and Manash Mathan
+	October 2, 2020
+	History Webpage 
+	This page is to show the history of Basketball and how it evolved over time
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+		<title>The History of Basketball</title>
+		<link rel="stylesheet" type="text/css" href="../styles.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+		<!--The link tag links to a external resource. For example in this case, the CSS file-->
+	</head>
+	<body>
+		<section id="navBar">
+		<header>
+			<h1 class="logo">Basketball</h1>
+			<input type="checkbox" id="nav-toggle" class="nav-toggle">
+			<nav>
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="index.html">Timeline</a></li>
+					<li><a href="../Teams/index.html">Teams</a></li>
+					<li><a href="../HistoricFigures/index.html">Players</a></li>
+					<li><a href="../ProcessWork/index.html">Process Work</a></li>
+				</ul>
+			</nav>
+			<label for="nav-toggle" class="nav-toggle-label"></label>
+		</header>
+		</section>
+		<section id="historyHeader" class="hero">
+		<!--
+			The section tag is used to split up articles or to represent multiple chapters. The hero is attribute is also used to put an image behind the heading. The code for the hero image was a combination of code found on w3schools.com and codetheweb.blog
+		-->
+			<div class="hero-inner">
+				<h1 id=history>The History of Basketball</h1>
+			</div>
+		</section>
+		<main id="timeline">
+			<!--The main tag shows content only specific to this page excluding content that could be repeated such as the navigation-->
+			<!-- This part lists the heading for each year. -->
+			<div class="process-wrapper">
+				<div id="progress-bar-container">
+					<ul>
+						<li class="step step01 active"><div class="step-inner">1891</div></li>
+						<li class="step step02"><div class="step-inner">1892</div></li>
+						<li class="step step03"><div class="step-inner">1894</div></li>
+						<li class="step step04"><div class="step-inner">1895</div></li>
+						<li class="step step05"><div class="step-inner">1949</div></li>
+					</ul>
+				<div id="line">
+				<div id="line-progress"></div>
+				</div>
+				</div>
+				<!-- Content -->
+				<div id="progress-content-section">
+				<div class="section-content discovery active">
+					<h2>1891</h2>
+						<p>
+							James Naismith, an instructor for physical education, invented the sport basketball in Springfield, Massachusetts. Naismith used two peach baskets as the hoops and a soccer ball. He later published 13 rules for his newfound game and named it basketball.
+						</p>
+					<img src="../images/invent.jpg" width="80%">
+				</div>
+				<div class="section-content strategy">
+					<h2>1892</h2>
+						<p>
+							The first official game of basketball was played with 9 players in the YMCA gymnasium in Albany, New York. The court was roughly half the size of the current-day NBA (National Basketball Association) court.
+						</p>
+					<img src="../images/naismith.jpg" width="80%">
+				</div>
+				<div class="section-content creative">
+					<h2>1894</h2>
+						<p>
+							The first professional basketball league, the NBL (National Basketball League), was formed. This league was formed to protect players from exploitation and to promote a less rough game but was later disbanded after 5 years.
+						</p>
+					<img src="../images/nbl.png" width="80%">
+				</div>
+				<div class="section-content production">
+					<h2>1895</h2>
+						<p>
+							The first college basketball game was played between Minnesota A&M and Hamline University. The game was played in the basement of the Hall of Science at Hamline University and a make-shift court was constructed in a former dining hall. Minnesota won the game 9-3.
+						</p>
+					<img src="../images/college.jpg" width="80%">
+				</div>
+				<div class="section-content analysis">
+					<h2>1949</h2>
+						<p>
+							The NBL, National Basketball League, and the BAA, Basketball Association of America, merged to create the NBA, National Basketball Association. Maurice Podoloff, an American lawyer and basketball and ice hockey administrator, served as the first president of this new league.
+						</p>
+					<img src="../images/NBAplayers.jpg" width="80%">
+				</div>
+			</div>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<!-- Javascript starts here. The base of this java script code is from the video. This part animates the progress bar in the timeline.-->
+			<script type="text/javascript">
+			//This javascript animates the the bar in the timeline so it slides to the next heading
+				$(".step").click( function() {
+				$(this).addClass("active").prevAll().addClass("active");
+				$(this).nextAll().removeClass("active");
+				});
+
+				$(".step01").click( function() {
+				$("#line-progress").css("width", "3%");
+				$(".discovery").addClass("active").siblings().removeClass("active");
+				});
+
+				$(".step02").click( function() {
+				$("#line-progress").css("width", "25%");
+				$(".strategy").addClass("active").siblings().removeClass("active");
+				});
+
+				$(".step03").click( function() {
+				$("#line-progress").css("width", "50%");
+				$(".creative").addClass("active").siblings().removeClass("active");
+				});
+
+				$(".step04").click( function() {
+				$("#line-progress").css("width", "75%");
+				$(".production").addClass("active").siblings().removeClass("active");
+				});
+
+				$(".step05").click( function() {
+				$("#line-progress").css("width", "100%");
+				$(".analysis").addClass("active").siblings().removeClass("active");
+				});
+   			</script>
+		</main>
+	</body>
+</html>

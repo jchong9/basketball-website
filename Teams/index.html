@@ -1,0 +1,54 @@
+<!--
+	Jeremy Chong, Karson Chan and Manash Mathan
+	October 3, 2020
+	Teams page
+	This is the main page that links the western and eastern conference teams.
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Teams</title>
+		<link rel="stylesheet" type="text/css" href="../styles.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<section id="navBar">
+			<header id="teamHeader">
+				<h1 class="logo">Basketball</h1>
+				<input type="checkbox" id="nav-toggle" class="nav-toggle">
+				<nav>
+					<ul>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="../History/index.html">Timeline</a></li>
+						<li><a href="index.html">Teams</a></li>
+						<li><a href="../HistoricFigures/index.html">Players</a></li>
+						<li><a href="../ProcessWork/index.html">Process Work</a></li>
+					</ul>
+				</nav>
+				<label for="nav-toggle" class="nav-toggle-label"></label>
+			</header>
+			</section>
+		<div class="split left">
+		<!--
+			This is the split screen, which will link to the western and eastern conference teams. This code is the base of code found on w3schools.com and stackoverflow.com.
+		-->
+			<div id="westConference" class="centered">
+				<img src="../images/wLogo.gif">
+				<h1>Western Conference</h1>
+				<a id="teamButton" href="wConference/index.html" class="button">
+				<!--This is  button that will link the user to the respective team page-->
+				GO TO WESTERN CONFERENCE TEAMS
+				</a>
+			</div>
+		</div>
+		<div class="split right">
+			<div id="eastConference" class="centered">
+				<img src="../images/eLogo.gif">
+				<h1>Eastern Conference</h1>
+				<a id="teamButton" href="eConference/index.html" class="button">
+				GO TO EASTERN CONFERENCE TEAMS
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
